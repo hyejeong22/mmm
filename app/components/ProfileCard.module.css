@@ -1,0 +1,65 @@
+/* ProfileCard.module.css */
+.card {
+  background-color: rgba(242, 231, 113, 0.349);
+  border-radius: 10pt;
+  margin-top: 100px; /* 상단에 20px 마진 */
+  margin-right: 200px; /* 우측에 10px 마진 */
+  margin-bottom: 30px; /* 하단에 30px 마진 */
+  margin-left: 200px;
+  padding: 5pt;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(150, 64, 64, 0.2);
+}
+
+.profileImage {
+  width: 170px;
+  height: 170px;
+  border-radius: 50px;
+  margin-top: -50px;
+}
+
+.name {
+  font-family: 'Chakra Petch', sans-serif;
+  color: rgba(2, 41, 85, 0.89);
+  font-size: 4em;
+  margin-top: -100px; /* 음수 값을 넣어 위로 이동 */
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.moreInfo,
+.education {
+  text-align: left;
+  width: 45%; /* Adjust width to fit your layout */
+}
+
+.hobbyVideoContainer {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space out hobby and video */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.hobby {
+  text-align: left;
+  width: 100%; /* Adjust width to fit your layout */
+}
+
+.video {
+  text-align: center;
+}
+
+/* 제목 크기 조정 */
+.h2 {
+  font-size: 1.5em; /* 제목 크기 조정 */
+  color: rgba(2, 41, 85, 0.89); /* 색상 */
+  margin-bottom: 20px; /* 제목과 내용 사이 여백 */
+}
+
+.h2 {
+  font-size: 2.5em; /* 이름 크기 조정 */
+  margin-bottom: 10px; /* 여백 */
+}
